@@ -87,14 +87,23 @@ body{
     text-align: center;
     outline: none;
     border: none;
-    /* border-bottom: 2px solid #DADADA; */
 }
 .amount hr{
     margin-left: 338px;
     width: 50%;
     background: #DADADA;
+    margin-bottom: 3%;
 }
-#btn{
+
+.amount .btn{
+    text-decoration: none;
+    color: azure;
+    font-size: 17.6px;
+    padding: 10px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+/* #btn{
     display: block;
     margin: 30px auto;
     border: none;
@@ -104,7 +113,7 @@ body{
     background-color: #FF5959;
     border-radius: 5px;
     cursor: pointer;
-} 
+}  */
 
 
 .donatePlan{
