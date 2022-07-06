@@ -87,9 +87,10 @@ body{
     text-align: center;
     outline: none;
     border: none;
+    /* border-bottom: 2px solid #DADADA; */
 }
 .amount hr{
-    margin-left: 26%;
+    margin-left: 326px;
     width: 52%;
     background: #DADADA;
 }
