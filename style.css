@@ -14,11 +14,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .contant{
     text-align: center;
 }
-
 .contant h1{
     color: azure;
     font-size: 50px;
@@ -26,7 +24,6 @@ body{
     padding-top: 15%;
     letter-spacing: 0.5px;
 }
-
 .contant p{
     color: azure;
     letter-spacing: 0.7px;
@@ -35,7 +32,6 @@ body{
     padding-top: 1%;
     padding-bottom: 4%;
 }
-
 .btn{
     text-decoration: none;
     color: azure;
@@ -44,6 +40,7 @@ body{
     background-color: #FF5959;
     border-radius: 5px;
 }
+
 
 .donaToday{
         width: 100%;
@@ -66,7 +63,7 @@ body{
     margin-left: 25%;
 
 }
-li{
+.donateType li{
     display: inline;
     font-size: 26px;
     font-weight: 500;
@@ -77,14 +74,12 @@ li{
     border-radius: 3px;
     cursor: pointer;
 }
-#active{
+.donateType #active{
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
     color: #FF5959;
 }
 .amount input{
-    /* color: #B3B3B3; */
-    /* margin-top: 85px; */
     padding: 7px 30px;
     font-size: 18px;
     background-color: #FFFFFF;
@@ -94,7 +89,6 @@ li{
     border: none;
 }
 .amount hr{
-    /* margin-top: -4%; */
     margin-left: 26%;
     width: 50%;
     background: #DADADA;
@@ -111,6 +105,7 @@ li{
     cursor: pointer;
 } 
 
+
 .donatePlan{
     width: 100%;
     height: 550px;
@@ -126,15 +121,14 @@ li{
     color: #707070;
 }
 
+
 .category{
     display: flex;
     text-align: left;
 }
-
 #child{
     margin-left: 143px;
 }
-
 .food{
     width: 25%;
     height: 300px;
@@ -142,7 +136,6 @@ li{
     margin-left: 20px;
     border-radius: 5px;
  }
-
 .Shelter{
     width: 25%;
     height: 300px;
@@ -172,6 +165,7 @@ li{
     padding-left: 20px;
     padding-top: 30px;
 }    
+
 
 .contant1{
     height: 450px;
@@ -207,6 +201,7 @@ li{
     border-radius: 4px;
 }
 
+
 .contant2{
     height: 450px;
     padding-bottom: 150px;
@@ -218,7 +213,6 @@ li{
     margin-left: 10%;
     padding-left: 2%;
 }
-
 .contant2 h4{
     color: #707070;
     font-weight: 600;
@@ -227,11 +221,9 @@ li{
 .contant2 h1{
     padding-bottom: 5%;
 }
-
 .program, .program1{
     display: flex;
 }
-
 #vonlant{
     background-color: #FFB439;
     padding: 20px 25px;
@@ -240,7 +232,6 @@ li{
     margin-bottom: 10%;
     box-shadow: 5px 5px 10px #ffb339b0;
 }
-
 #happy{
     background-color: #946DC4;
     padding: 20px 9px;
@@ -248,7 +239,6 @@ li{
     border-radius: 5px;
     box-shadow: 5px 5px 10px #946dc488;
 }
-
 #donate{
     background-color: #9FBF69; 
     margin-bottom: 47px;
@@ -257,7 +247,6 @@ li{
     box-shadow: 5px 5px 10px #9fbf699a;
 
 }
-
 #product{
     background-color: #4F87ED;
     padding: 20px 35px;
@@ -265,11 +254,9 @@ li{
     box-shadow: 5px 5px 10px #4f86ed90;
 
 }
-
 .volSec, .donSec, .happyChild, .prod{
     display: inline-block;
 }
-
 .volSec img, .donSec img, .happyChild img, .prod img {
     height: 50px;
     width: 50px;
@@ -278,10 +265,10 @@ li{
     color: azure;
     line-height: 35px;
 }
-
 .volSec p, .donSec p, .happyChild p, .prod p{
     font-weight: 600;
 } 
+
 
 .update{
     width: 100%;
@@ -307,7 +294,7 @@ li{
 }
 #email{
     margin-top: 85px;
-    padding: 7px 30px;
+    padding: 7px 7px;
     font-size: 18px;
     background-color: #D9D9D9;
     color: #AA9F9F;
@@ -328,6 +315,8 @@ li{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
+
 footer{
     width: 100%;
     height: 170px;
