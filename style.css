@@ -30,6 +30,8 @@ body{
 .contant p{
     color: azure;
     letter-spacing: 0.7px;
+    line-height: 26px;
+    font-size: 17px;
     padding-top: 1%;
     padding-bottom: 4%;
 }
@@ -80,11 +82,19 @@ li{
     background-color: #FFEEEE;
     color: #FF5959;
 }
-.amount p{
-    color: #B3B3B3;
+.amount input{
+    /* color: #B3B3B3; */
+    /* margin-top: 85px; */
+    padding: 7px 30px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #AA9F9F;
+    text-align: center;
+    outline: none;
+    border: none;
 }
 .amount hr{
-    margin-top: -4%;
+    /* margin-top: -4%; */
     margin-left: 26%;
     width: 50%;
     background: #DADADA;
@@ -242,7 +252,7 @@ li{
 #donate{
     background-color: #9FBF69; 
     margin-bottom: 47px;
-    padding: 20px 10px;
+    padding: 20px 23px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #9fbf699a;
 
