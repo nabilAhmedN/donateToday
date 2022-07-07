@@ -182,6 +182,7 @@ body{
 }
 .contant1 p{
     padding-top: 4%;
+    line-height: 18px;
     color: #707070;
     padding-bottom: 6%;
 }
